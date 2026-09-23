@@ -61,24 +61,12 @@ Configure an on-board switch pin as a GPIO input with an internal pull-up resist
 
 ---
 ## OUTPUT
+<img width="1917" height="1197" alt="image" src="https://github.com/user-attachments/assets/65b5b212-3be7-4aa7-8981-62b1c35ebfa5" />
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
----
 ## Result
 
 The **GPIO interrupt and timer-based non-blocking debounce** technique was successfully implemented. The timer delay effectively filtered the unwanted switch-bounce transitions and eliminated **false triggering**. The main loop continued to execute during the debounce period without blocking, confirming efficient and reliable switch debouncing.
